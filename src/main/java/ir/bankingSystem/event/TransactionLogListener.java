@@ -12,13 +12,13 @@ public class TransactionLogListener {
     @TransactionalEventListener( phase = TransactionPhase.AFTER_COMMIT)
     public void handleTransactionLogEvent(TransactionLogEvent<?> event) {
         if (event.getTransactionRequest() instanceof TransactionRequest)
-            System.out.println("Transaction happened: " + ((TransactionRequest)event.getTransactionRequest()).getTransactionType().name());
+            System.out.println("Transaction : " + ((TransactionRequest)event.getTransactionRequest()).getTransactionType().name());
     }
 
     @TransactionalEventListener(phase = TransactionPhase.AFTER_COMMIT)
     public void handleCreateAccountLogEvent(TransactionLogEvent<?> event) {
         if (event.getTransactionRequest() instanceof CreateAccountRequest)
-           System.out.println("CreateAccount happened: " + ((CreateAccountRequest) event.getTransactionRequest()).getAccountNumber());
+           System.out.println("CreateAccount : " + ((CreateAccountRequest) event.getTransactionRequest()).getAccountNumber());
     }
 
 }

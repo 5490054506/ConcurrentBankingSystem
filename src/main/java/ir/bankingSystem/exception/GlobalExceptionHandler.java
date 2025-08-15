@@ -1,4 +1,4 @@
-package ir.bankingSystem.web;
+package ir.bankingSystem.exception;
 
 
 import ir.bankingSystem.exception.AccountNotFoundException;

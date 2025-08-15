@@ -3107,3 +3107,10 @@
 2025-08-15 19:31:06 [main] INFO  ir.bankingSystem.service.imple.BankServiceImple - Account created with id=1, owner=ALI
 2025-08-15 19:31:06 [main] INFO  ir.bankingSystem.aspect.LoggingAspect - saved request and response log in database
 2025-08-15 19:31:06 [main] INFO  ir.bankingSystem.aspect.LoggingAspect - AccountResponse(accountType=null, accountNumber=1234, ownerName=ALI, mobileNumber=09130135702, balance=100)
+2025-08-15 19:57:59 [main] INFO  ir.bankingSystem.ConcurrentBankingSystemApplicationTests - Starting ConcurrentBankingSystemApplicationTests using Java 17.0.12 with PID 10632 (started by d.jahangiri in D:\project\ConcurrentBankingSystem)
+2025-08-15 19:57:59 [main] DEBUG ir.bankingSystem.ConcurrentBankingSystemApplicationTests - Running with Spring Boot v3.5.4, Spring v6.2.9
+2025-08-15 19:57:59 [main] INFO  ir.bankingSystem.ConcurrentBankingSystemApplicationTests - The following 1 profile is active: "dev-test"
+2025-08-15 19:58:05 [main] INFO  ir.bankingSystem.ConcurrentBankingSystemApplicationTests - Started ConcurrentBankingSystemApplicationTests in 6.849 seconds (process running for 8.257)
+2025-08-15 19:58:06 [main] INFO  ir.bankingSystem.service.imple.BankServiceImple - Account created with id=1, owner=ALI
+2025-08-15 19:58:06 [main] INFO  ir.bankingSystem.aspect.LoggingAspect - saved request and response log in database
+2025-08-15 19:58:06 [main] INFO  ir.bankingSystem.aspect.LoggingAspect - AccountResponse(accountType=null, accountNumber=1234, ownerName=ALI, mobileNumber=09130135702, balance=100)
